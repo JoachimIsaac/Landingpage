@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap");
+@import "/Users/joachim/Projects/personal projects /headphones-landingpage/css/landing-page/reset.css";
+@import "/Users/joachim/Projects/personal projects /headphones-landingpage/css/landing-page/header.css";
+@import "/Users/joachim/Projects/personal projects /headphones-landingpage/css/landing-page/top-jumbo.css";
+
+/*
+orange: #EF913D
+blue: #4945BF
+purple: #B956D0
+light blue: #6356ED
+light purple: #D3B0E4
+ */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
