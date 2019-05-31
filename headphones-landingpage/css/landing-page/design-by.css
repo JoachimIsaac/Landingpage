@@ -1,0 +1,16 @@
+#design-by {
+  position: relative;
+  top: -100px;
+}
+
+#design-by .design-container {
+  /* position: ; */
+}
+
+#design-by .design-container .info-section {
+  background: #6066f2;
+  width: 40%;
+}
+#design-by .design-container .icons-section {
+  width: 60%;
+}
