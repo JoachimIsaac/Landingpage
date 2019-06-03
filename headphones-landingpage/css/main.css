@@ -3,6 +3,9 @@
 @import "/Users/joachim/Projects/personal projects /headphones-landingpage/css/landing-page/header.css";
 @import "/Users/joachim/Projects/personal projects /headphones-landingpage/css/landing-page/top-jumbo.css";
 @import "../css/landing-page/design-by.css";
+@import "/Users/joachim/Projects/personal projects /headphones-landingpage/css/landing-page/color-collection.css";
+@import "/Users/joachim/Projects/personal projects /headphones-landingpage/css/landing-page/blue-print.css";
+@import "/Users/joachim/Projects/personal projects /headphones-landingpage/css/landing-page/lastest.css";
 
 /*
 orange: #EF913D
@@ -27,4 +30,10 @@ light purple: #D3B0E4
   -webkit-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+}
+
+.box-shadow-center {
+  -webkit-box-shadow: 0px 0px 65px 13px rgba(158, 158, 158, 0.2);
+  -moz-box-shadow: 0px 0px 65px 13px rgba(158, 158, 158, 0.2);
+  box-shadow: 0px 0px 65px 13px rgba(158, 158, 158, 0.2);
 }
