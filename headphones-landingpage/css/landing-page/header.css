@@ -73,3 +73,15 @@ header .header-buttons .orange-btn {
   -moz-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
 }
+
+/*laptops devices*/
+@media only screen and (max-width: 1215px) {
+}
+
+/*tablet devices*/
+@media only screen and (max-width: 1023px) {
+}
+/*mobile devices*/
+
+@media only screen and (max-width: 767px) {
+}
