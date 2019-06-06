@@ -44,6 +44,7 @@
 #blue-print .left-side img {
   width: 544px;
   height: 746px;
+  /* width: 100%; */
 }
 
 #blue-print .right-side h1 {
@@ -53,6 +54,7 @@
   text-transform: capitalize;
   margin-bottom: 70px;
   line-height: 1.2;
+  text-align: left;
 }
 
 #blue-print .right-side .info-box {
@@ -124,8 +126,85 @@
 
 /*tablet devices*/
 @media only screen and (max-width: 1023px) {
+  #blue-print .left-side {
+    width: 40%;
+  }
+  #blue-print .right-side {
+    width: 60%;
+  }
+  #blue-print .left-side img {
+    height: 250px;
+    width: 250px;
+  }
+
+  #blue-print {
+    padding: 100px 0;
+  }
+
+  #blue-print .right-side .info-box .col-1 {
+    width: 40%;
+    float: left;
+    text-align: center;
+  }
+  #blue-print .right-side .info-box .col-1 .icon-container {
+    width: 120px;
+    height: 120px;
+    margin: 20px auto 0;
+  }
+  #blue-print .right-side .info-box .col-1 .icon-container .dashed-circle {
+    width: 90px;
+    height: 90px;
+  }
+
+  #blue-print .right-side .info-box .col-1 .icon-container .fas,
+  #blue-print .right-side .info-box .col-1 .icon-container .fab {
+    font-size: 3rem;
+    top: 29px;
+    left: 39px;
+    position: absolute;
+  }
 }
 /*mobile devices*/
 
 @media only screen and (max-width: 767px) {
+  #blue-print .right-side h1 {
+    font-size: 3rem;
+
+    text-align: center;
+  }
+  #blue-print {
+    padding: 100px 0;
+  }
+
+  #blue-print .left-side {
+    width: 100%;
+  }
+  #blue-print .left-side img {
+    display: none;
+  }
+  #blue-print .right-side {
+    width: 100%;
+  }
+  #blue-print .right-side .info-box .col-1 {
+    width: 40%;
+    float: left;
+    text-align: center;
+  }
+  #blue-print .right-side .info-box .col-1 .icon-container {
+    width: 120px;
+    height: 120px;
+    margin: 20px auto 0;
+  }
+  #blue-print .right-side .info-box .col-1 .icon-container .dashed-circle {
+    width: 90px;
+    height: 90px;
+  }
+
+  #blue-print .right-side .info-box .col-1 .icon-container .fas,
+  #blue-print .right-side .info-box .col-1 .icon-container .fab {
+    font-size: 3rem;
+    top: 29px;
+    left: 39px;
+    position: absolute;
+  }
 }

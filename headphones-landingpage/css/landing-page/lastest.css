@@ -507,8 +507,204 @@
 
 /*tablet devices*/
 @media only screen and (max-width: 1023px) {
+  #latest .body .column {
+    width: 50%;
+    margin-bottom: 150px;
+  }
+  #latest .header h1 {
+    font-size: 3.5rem;
+  }
+  #latest .header .directions {
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: 61px;
+  }
+  #latest .footer img {
+    width: 20%;
+    max-width: 400px;
+    position: absolute;
+    z-index: 1;
+    top: 741px;
+    left: 38%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%) invert(100%);
+    margin-top: 30px;
+    opacity: 0.1;
+    transform: rotate(40deg);
+  }
+  #latest .footer .info-box h2 {
+    color: #6066f2;
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+    top: 69%;
+    position: absolute;
+    left: 21%;
+  }
+  #latest .footer .info-box .input-area .fas {
+    position: relative;
+    top: 16px;
+    margin-left: 0;
+    float: left;
+    width: 15%;
+    text-align: center;
+  }
+
+  #latest .footer .info-box .input-area input[type="email"] {
+    width: 50%;
+    float: left;
+    position: relative;
+    top: 2px;
+  }
+
+  #latest .footer .info-box .input-area button {
+    background: #6066f2;
+    padding: 20px 0;
+    font-size: 1rem;
+    width: 35%;
+    float: left;
+  }
+  #latest .footer .info-box .input-area:nth-child(1) {
+    margin: 0;
+    width: 50%;
+  }
+  #latest .footer .info-box .input-area:nth-child(1) input[type="text"] {
+    margin: 0;
+    width: 80%;
+  }
+  #latest .footer .info-box .input-area:nth-child(2) {
+    margin: 0;
+    width: 50%;
+  }
+  #latest .footer .info-box .input-area:nth-child(1) .fas {
+    position: relative;
+    top: 20px;
+    left: 2px;
+    font-size: 20px;
+    color: #4c44c1;
+    opacity: 0.3;
+  }
+  #latest .footer .info-box .input-area:nth-child(2) .fas {
+    position: relative;
+    top: 22px;
+    left: 5px;
+    font-size: 20px;
+    color: #4c44c1;
+    opacity: 0.3;
+  }
+  #latest .footer .info-box form {
+    vertical-align: top;
+    display: inline-block;
+    margin: 0 auto;
+    width: 80%;
+  }
+  #latest .footer .info-box form {
+    vertical-align: top;
+    display: inline-block;
+    margin: 0 auto;
+    width: 80%;
+    display: inline-table;
+  }
+  #latest .footer .info-box .input-area:nth-child(2) {
+    margin: 0;
+    position: relative;
+    top: 31px;
+    margin-left: 24px;
+  }
 }
 /*mobile devices*/
 
 @media only screen and (max-width: 767px) {
+  #latest .header {
+    text-align: center;
+  }
+  #latest .body .column {
+    width: 100%;
+    margin-bottom: 150px;
+  }
+  #latest .header h1 {
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    max-width: none;
+  }
+
+  #latest .header .directions {
+    float: none;
+    top: 0;
+    margin: 0 auto;
+    position: static;
+  }
+
+  #latest .footer img {
+    position: static;
+    width: 165px;
+  }
+  #latest .footer .info-box .input-area .fas {
+    position: relative;
+    top: 16px;
+    margin-left: 0;
+    float: left;
+    width: 15%;
+    text-align: center;
+  }
+
+  #latest .footer .info-box .input-area input[type="email"] {
+    width: 50%;
+    float: left;
+    position: relative;
+    top: 0px;
+  }
+
+  #latest .footer .info-box .input-area button {
+    background: #6066f2;
+
+    padding: 20px 0;
+
+    font-size: 1rem;
+    width: 35%;
+    float: left;
+  }
+  #latest .footer .info-box .input-area:nth-child(1) {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #latest .footer .info-box .input-area:nth-child(2) {
+    margin: 0;
+    width: 100%;
+  }
+  #latest .footer .info-box h2 {
+    color: #6066f2;
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+    top: -31%;
+    position: absolute;
+    left: 1%;
+  }
+  #latest .footer .info-box .input-area:nth-child(2) .fas {
+    position: relative;
+    top: 20px;
+    left: 5px;
+    font-size: 20px;
+    color: #4c44c1;
+    opacity: 0.3;
+  }
+  #latest .footer .info-box .input-area:nth-child(1) .fas {
+    position: relative;
+    top: 20px;
+    left: 2px;
+    font-size: 20px;
+    color: #4c44c1;
+    opacity: 0.3;
+  }
+  #latest .body .column:nth-child(1) .bg-square,
+  #latest .body .column:nth-child(2) .bg-square,
+  #latest .body .column:nth-child(3) .bg-square {
+    transform: scale(0.8);
+  }
 }
